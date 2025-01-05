@@ -1,5 +1,5 @@
 # Use an official Maven image to build the project
-FROM maven:3.8.7-eclipse-temurin-17 AS build
+FROM maven:3.9.9-eclipse-temurin-21 AS build
 
 # Set the working directory inside the container
 WORKDIR /app
@@ -15,13 +15,13 @@ COPY src ./src
 RUN mvn clean package
 
 # Use a lightweight Java runtime to run the application
-FROM eclipse-temurin:17-jre
+FROM eclipse-temurin:21-jre
 
 # Set the working directory for the runtime container
 WORKDIR /app
 
 # Copy the JAR file from the build stage
-COPY --from=build /app/target/CambridgeForUkraineBot-1.0-SNAPSHOT-shaded.jar /app/bot.jar
+COPY --from=build /app/target/CambridgeForUkraineBot-1.0-SNAPSHOT.jar /app/bot.jar
 
 # Expose the port if your bot listens for webhooks (optional)
 # EXPOSE 8080
