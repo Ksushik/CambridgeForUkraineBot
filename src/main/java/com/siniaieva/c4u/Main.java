@@ -10,6 +10,8 @@ public class Main {
         try {
             TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
             botsApi.registerBot(new C4UTelegramBot());
+            System.out.println("Bot is ready");
+
         } catch (TelegramApiException e) {
             e.printStackTrace();
         }
