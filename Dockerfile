@@ -24,7 +24,7 @@ WORKDIR /app
 COPY --from=build /app/target/CambridgeForUkraineBot-1.0-SNAPSHOT.jar /app/bot.jar
 
 # Expose the port if your bot listens for webhooks (optional)
-# EXPOSE 8080
+EXPOSE 8080
 
 # Run the bot
 CMD ["java", "-jar", "/app/bot.jar"]
