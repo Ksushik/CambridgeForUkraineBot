@@ -1,0 +1,48 @@
+{
+  "messaging_product": "whatsapp",
+  "to": "<recipient_number>",
+  "type": "interactive",
+  "interactive": {
+    "type": "list",
+    "header": {
+      "type": "text",
+      "text": "Menu"
+    },
+    "body": {
+      "text": "Choose an option from the list below:"
+    },
+    "footer": {
+      "text": "Use the options to navigate."
+    },
+    "action": {
+      "button": "View Options",
+      "sections": [
+        {
+          "title": "Information",
+          "rows": [
+            {
+              "id": "services",
+              "title": "Services",
+              "description": "Get information about services."
+            },
+            {
+              "id": "adds",
+              "title": "Adds",
+              "description": "See additional resources."
+            }
+          ]
+        },
+        {
+          "title": "Events",
+          "rows": [
+            {
+              "id": "events",
+              "title": "Events Calendar",
+              "description": "Check our event schedule."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
