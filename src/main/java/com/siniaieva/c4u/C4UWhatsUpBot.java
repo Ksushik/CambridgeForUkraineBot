@@ -8,8 +8,8 @@ import java.net.URL;
 
 public class C4UWhatsUpBot {
 
-    private static final String ACCESS_TOKEN = "EAAIwjY77LtoBO1IEwSrgFEbT4ZBFTCMIvsW9FSm41Reuxa8lhOeyxSzEJyIZAJYd5cFP5MyeMmfxkNx1beJnY26YhCiRvslFZBPhjNVwmX8Fq8zwDcZBZCCN3ZB6OQjXwsRnGkCymOki0nOYDIMJTFaZAnMiwMKKFctqVwiR1dY3mA67T0zZCP8RwFuunwwEO0hgP7ZC7uo4beLjtZBOJteZAy1vf59dW0ZD";
-    private static final String ACCESS_TOKEN_2 = "EAAIwjY77LtoBO3wz2th9ZChvNSXsa4tmG52EcZBjWBGTShvwxBFLOQibSZAJsXYxC9ZAufoTVjIXAbynjFk1zXTxIqmEmUBdc2aZCOKQ1ZBnkg0knoOPnKDYBZCGMVWf5oDhRFMN3Y1y4JJGvQsMbfpk5angciT6j6RpQQwj3pVsP0Twb8xbYU74QLGpEP2J111wgZDZD";
+//    private static final String ACCESS_TOKEN = "EAAIwjY77LtoBO1IEwSrgFEbT4ZBFTCMIvsW9FSm41Reuxa8lhOeyxSzEJyIZAJYd5cFP5MyeMmfxkNx1beJnY26YhCiRvslFZBPhjNVwmX8Fq8zwDcZBZCCN3ZB6OQjXwsRnGkCymOki0nOYDIMJTFaZAnMiwMKKFctqVwiR1dY3mA67T0zZCP8RwFuunwwEO0hgP7ZC7uo4beLjtZBOJteZAy1vf59dW0ZD";
+    private static final String ACCESS_TOKEN = "EAAIwjY77LtoBO3wz2th9ZChvNSXsa4tmG52EcZBjWBGTShvwxBFLOQibSZAJsXYxC9ZAufoTVjIXAbynjFk1zXTxIqmEmUBdc2aZCOKQ1ZBnkg0knoOPnKDYBZCGMVWf5oDhRFMN3Y1y4JJGvQsMbfpk5angciT6j6RpQQwj3pVsP0Twb8xbYU74QLGpEP2J111wgZDZD";
     private static final String API_URL = "https://graph.facebook.com/v21.0/523490647516862/messages";
 
     public static void handleIncomingMessage(String to, String message) {
