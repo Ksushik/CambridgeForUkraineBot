@@ -48,7 +48,7 @@
                 <configuration>
                     <archive>
                         <manifestEntries>
-                            <Main-Class>com.siniaieva.c4u.Main</Main-Class>
+                            <Main-Class>com.siniaieva.c4u.WhatsAppBotApplication</Main-Class>
                         </manifestEntries>
                     </archive>
                 </configuration>
